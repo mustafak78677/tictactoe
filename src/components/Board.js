@@ -12,8 +12,7 @@ const Board = ({ board, handleSqaureClick, winningSquares }) => {
             <Square 
                 value={board[position]}
                 onClick={()=>{
-                    handleSqaureClick(position)
-                    
+                    handleSqaureClick(position)                    
                 }}
                 isWinningSquare={isWinningSquare}
             />
